@@ -17,9 +17,12 @@ Abstract: *TBC*
 
 ## Getting Started
 
-The original images in the Tharun Thompson are 1916x1053 pixels. StyleGAN2-ADA's dataset_tool.py automatically crops 512x512 images from the center of the source dataset. To ensure data isn't lost in this process, the images can initially be split using the split_dataset.py as follows:
+The original images in the Tharun Thompson dataset are 1916x1053 pixels. StyleGAN2-ADA's dataset_tool.py automatically crops 512x512 images from the center of the source dataset. 
+
+If the source data is larger than 512x512, to ensure all data is being used to train the GAN, the images can initially be split using the split_dataset.py as follows:
 
 ```.bash
 # Split source data into 512x512 crops:
 python split_dataset.py --source data_dir --labels data_labels --dest out_dir --crop_size 512
 ```
+![Splitting image](./images/image_split.png)
