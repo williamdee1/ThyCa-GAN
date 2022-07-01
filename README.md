@@ -25,4 +25,4 @@ If the source data is larger than 512x512, to ensure all data is being used to t
 # Split source data into 512x512 crops:
 python split_dataset.py --source data_dir --labels data_labels --dest out_dir --crop_size 512
 ```
-![Splitting image](./images/image_split.png)
+![Splitting image](images/image_split.png)
