@@ -1,4 +1,5 @@
-# Thy-GAN - Can GAN-Generated Images Help Bridge the Domain Gap between Thyroid Histopathology Image Datasets?
+# Thy-GAN 
+## Can GAN-Generated Images Help Bridge the Domain Gap between Thyroid Histopathology Image Datasets?
 
 Abstract: *TBC*
 
