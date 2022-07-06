@@ -41,6 +41,7 @@ The StyleGAN2-ADA repository should be downloaded. This work utilizes the [offic
 ### Training
 
 The GAN was trained with the following arguments:
+`--outdir`
   - '--cfg=paper512' to mirror the parameter settings used for the BRECAHAD dataset - a small dataset containing breast cancer histopathology images (see StyleGAN2-ADA paper for more detail). 
   - '--cond==1' ensures the GAN is trained using the labels provided, and so is subsequently able to produce images for a given class.
   - '--mirror==1' includes x-flips of each image in the dataset, effectively doubling the training images.
