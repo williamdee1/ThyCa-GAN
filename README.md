@@ -33,3 +33,22 @@ After zipping the resulting image files and dataset.json labels file, this zip f
 # Perpare images for StyleGAN2-ADA Generative Adversarial Network Training:
 python dataset_tool.py --source data_dir/split_data.zip --dest out_dir --transform center-crop --width 512 --height 512
 ```
+
+## StyleGAN2-ADA Generative Adversarial Network (GAN)
+
+The StyleGAN2-ADA repository should be downloaded. This work utilizes the [official PyTorch implementation](https://github.com/NVlabs/stylegan2-ada-pytorch).
+
+### Training
+
+The GAN was trained with the following arguments:
+  - '--cfg=paper512' to mirror the parameter settings used for the BRECAHAD dataset - a small dataset containing breast cancer histopathology images (see StyleGAN2-ADA paper for more detail). 
+  - '--cond==1' ensures the GAN is trained using the labels provided, and so is subsequently able to produce images for a given class.
+  - '--mirror==1' includes x-flips of each image in the dataset, effectively doubling the training images.
+  - '--kimg-25000' sets the GAN to train based on 25 million real/generated images.
+
+```.bash
+# Run StyleGAN2-ADA GAN Training:
+python train.py --outdir=outdir --data=dataset_tool_output.zip --gpus=4 --cfg=paper512 --cond=1 --mirror=1 --kimg=25000
+```
+
+Shell script files used to run the GAN training on the Queen Mary HPC are included in the ['shell_scr'](.shell_scr/) directory.
