@@ -26,3 +26,10 @@ If the source data is larger than 512x512, to ensure all data is being used to t
 python split_dataset.py --source data_dir --labels data_labels --dest out_dir --crop_size 512
 ```
 ![Splitting image](./images/image_split.PNG)
+
+After zipping the resulting image files and dataset.json labels file, this zip file can be pre-processed by StyleGAN2's [dataset_tool.py](https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/dataset_tool.py). 
+
+```.bash
+# Perpare images for StyleGAN2-ADA Generative Adversarial Network Training:
+python dataset_tool.py --source data_dir/split_data.zip --dest out_dir --transform center-crop --width 512 --height 512
+```
