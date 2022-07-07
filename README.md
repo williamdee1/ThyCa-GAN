@@ -27,24 +27,24 @@ python split_dataset.py --source data_dir --labels data_labels --dest out_dir --
 ```
 ![Splitting image](./images/image_split.PNG)
 
-After zipping the resulting image files and dataset.json labels file, this zip file can be pre-processed by StyleGAN2's [dataset_tool.py](https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/dataset_tool.py). 
+After zipping the resulting image files and dataset.json labels file, this zip file can be further pre-processed by StyleGAN2's [dataset_tool.py]. After that it is ready for GAN training. (https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/dataset_tool.py). 
 
 ```.bash
 # Perpare images for StyleGAN2-ADA Generative Adversarial Network Training:
 python dataset_tool.py --source data_dir/split_data.zip --dest out_dir --transform center-crop --width 512 --height 512
 ```
 
-## StyleGAN2-ADA Generative Adversarial Network (GAN)
+## StyleGAN2-ADA Generative Adversarial Network
 
 The StyleGAN2-ADA repository should be downloaded. This work utilizes the [official PyTorch implementation](https://github.com/NVlabs/stylegan2-ada-pytorch).
 
 ### Training
 
 The GAN was trained with the following arguments:
-  - `--cfg=paper512` to mirror the parameter settings used for the BRECAHAD dataset - a small dataset containing breast cancer histopathology images (see StyleGAN2-ADA paper for more detail). 
-  - `--cond==1` ensures the GAN is trained using the labels provided, and so is subsequently able to produce images for a given class.
-  - `--mirror==1` includes x-flips of each image in the dataset, effectively doubling the training images.
-  - `--kimg-25000` sets the GAN to train based on 25 million real/generated images.
+  - `--cfg = paper512` to mirror the parameter settings used for the BRECAHAD dataset - a small dataset containing breast cancer histopathology images (see StyleGAN2-ADA paper for more detail). 
+  - `--cond = 1` ensures the GAN is trained using the labels provided, and so is subsequently able to produce images for a given class.
+  - `--mirror = 1` includes x-flips of each image in the dataset, effectively doubling the training images.
+  - `--kimg = 25000` sets the GAN to train based on 25 million real/generated images.
 
 ```.bash
 # Run StyleGAN2-ADA GAN Training:
