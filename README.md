@@ -27,7 +27,7 @@ python split_dataset.py --source data_dir --labels data_labels --dest out_dir --
 ```
 ![Splitting image](./images/image_split.PNG)
 
-After zipping the resulting image files and dataset.json labels file, this zip file can be further pre-processed by StyleGAN2's [dataset_tool.py]. After that it is ready for GAN training. (https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/dataset_tool.py). 
+After zipping the resulting image files and dataset.json labels file, this zip file can be further pre-processed by StyleGAN2's [dataset_tool.py](https://github.com/NVlabs/stylegan2-ada-pytorch/blob/main/dataset_tool.py). Then the data is ready for GAN training.
 
 ```.bash
 # Perpare images for StyleGAN2-ADA Generative Adversarial Network Training:
@@ -52,3 +52,12 @@ python train.py --outdir=outdir --data=dataset_tool_output.zip --gpus=4 --cfg=pa
 ```
 
 Shell script files used to run the GAN training on the Queen Mary HPC are included in the [shell_scr](.shell_scr/) directory.
+
+### Image Generation
+
+Once the GAN has been trained and the checkpoint with the lowest FID score has been saved, the [generate.py](https://github.com/NVlabs/stylegan2-ada/blob/main/generate.py) from the StyleGAN2 repository can be used to generate fake images. The seeds ensure that the same images can be reproduced from the network if required.
+
+```.bash
+# Generate 200 fake images for specified class label (in this example, the class indexed as 0 during training):
+python generate.py --outdir=outdir --seeds=0-200 --network=models/network.pkl --class=0
+```
