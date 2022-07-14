@@ -1,13 +1,11 @@
 # Thy-GAN 
 ## Can GAN-Generated Images Help Bridge the Domain Gap between Thyroid Histopathology Image Datasets?
 
-![Domain Gap Image](./images/real_vs_gan.PNG)
+![Domain Gap Image](./images/real_vs_gan.PNG | width=100)
 
 Abstract: *TBC*
 
-## Requirements
-
-## Data repository
+## Primary Reference Material and Data Sources
 
 | Path | Description
 | :--- | :----------
@@ -16,6 +14,9 @@ Abstract: *TBC*
 | [TCGA-THCA Data](https://portal.gdc.cancer.gov/projects/TCGA-THCA) |  Source of TCGA External Dataset Samples
 | [StyleGAN2-ADA Pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) | StyleGAN2-ADA Github Repository
 | &ensp;&ensp;&boxvr;&nbsp; [styleGAN2-ada.pdf](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/ada-paper.pdf) | StyleGAN2-ADA Research Paper
+
+## Requirements
+
 
 ## Getting Started
 
