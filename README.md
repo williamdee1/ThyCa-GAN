@@ -53,7 +53,7 @@ The GAN was trained with the following arguments:
 ```.bash
 # Run StyleGAN2-ADA GAN Training:
 python train.py --outdir=outdir --data=dataset_tool_output.zip --gpus=4 --cfg=paper512 \
---cond=1 --mirror=1 --kimg=25000
+  --cond=1 --mirror=1 --kimg=25000
 ```
 
 Shell script files used to run the GAN training on the Queen Mary HPC are included in the [shell_scr](.shell_scr/) directory.
@@ -66,4 +66,21 @@ Once the GAN has been trained and the checkpoint with the lowest FID score has b
 # Generate 200 fake images for specified class label 
 # In this example, the class selected was indexed as 0 during training
 python generate.py --outdir=outdir --seeds=0-200 --network=models/network.pkl --class=0
+```
+
+## Deep Learning Classifier
+
+This repository contains the modules needed to replicate the deep learning classifier, trained to identify thyroid histopathology images as PTC-like or Non-PTC-like.
+
+### Training
+
+
+```.bash
+# Train DLC based on the first cross-validation split using no GAN images
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 \
+  --split_file=data/cv_splits/cv0_split.json --run_id='cv0' --batch_size=64 --lr=1e-3 --gan_params=None
+
+# Augment the training data by increasing the majority class by 100% and then equalizing the no. minority classes ("MC100")
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 \
+  --split_file=data/cv_splits/cv0_split.json --run_id='cv0' --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_mc100.json
 ```
