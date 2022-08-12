@@ -108,17 +108,17 @@ Each model was ran with the Adam optimizer, with a weight decay of 1e-6, and the
 
 ```.bash
 # Train DLC based on the first cross-validation split using no synthetic GAN images:
-python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ \
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json --out_dir=logs/ \
   --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id='cv0' \
   --batch_size=64 --lr=1e-3 --gan_params=None
 
 # Augment the training data by increasing the prevalence of both binary classes (PTC and Non-PTC-like) by 100%:
-python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ \
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json --out_dir=logs/ \
   --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id='cv0' \
   --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_bi100.json
 
 # Augment the training data by increasing the majority class by 100% and then equalizing the number of minority classes:
-python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ \
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json --out_dir=logs/ \
   --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id='cv0' \
   --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_mc100.json
 ```
@@ -129,7 +129,7 @@ Evaluate a trained DLC model on test data – either 20% of the Tharun Thompson 
 
 ```.bash
 # Evaluate a model trained on the first cross validation split on the test data from that split:
-python dlc_eval.py --src_dir=all_imgs/TharunThompson/ --labels=data/bi_dataset.json \
+python dlc_eval.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json \
   --out_dir=logs/eval_results/ --split_file=data/cv_splits/cv_splits/cv0_split.json \
   --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=mod_test
 ```
