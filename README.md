@@ -106,6 +106,10 @@ Model training was performed with the following arguments:
   
 Each model was ran with the Adam optimizer, with a weight decay of 1e-6, and the criterion set to cross-entropy loss. Maximum training epochs were set to 500.
 
+### Example training and validation accuracy and loss curves:
+
+![Train Val Curves - MC100](./images/mc100_training_plots.png)
+
 ```.bash
 # Train DLC based on the first cross-validation split using no synthetic GAN images:
 python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json --out_dir=logs/ \
@@ -129,9 +133,12 @@ Evaluate a trained DLC model on test data – either 20% of the Tharun Thompson 
 
 ```.bash
 # Evaluate a model trained on the first cross validation split on the test data from that split:
-python dlc_eval.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json \
-  --out_dir=logs/eval_results/ --split_file=data/cv_splits/cv0_split.json \
-  --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=mod_test
+python dlc_eval.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json --out_dir=logs/eval_results/ \
+  --split_file=data/cv_splits/cv0_split.json --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=mod_test
+  
+# Evaluate a model trained on the full T&T data (plus GAN samples if applicable) on the Niki-TCGA data:
+python dlc_eval.py --src_dir=data/niki_tcga/ --labels=data/ext_dataset.json  --out_dir=logs/eval_results/ \
+  --split_file=data/labels/ext_test_fnames.json --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=test_ext
 ```
 
 ## Acknowledgements
