@@ -70,6 +70,19 @@ Once the GAN has been trained and the checkpoint with the lowest FID score has b
 python generate.py --outdir=outdir --seeds=0-200 --network=models/network.pkl --class=0
 ```
 
+## Training Time
+
+As explained in the StyleGAN2-ADA repository, training time is dependent on output resolution, number and type of GPUs, the input dataset and hyperparameters chosen. The training of Thy-GAN was performed twice, once with binary labels (PTC-like or Non-PTC-like) and once with multi-class labels (PTC, NIFTP, FVPTC, FTC and FA).
+
+The following table lists the resource usage of these two GANs during training on the Queen Mary Apocrita HPC:
+
+| Labels      | Resolution | GPUs | 1000 kimg | 25000 kimg | sec/kimg | GPU mem | CPU mem
+| :---------: | :--------: | :--: | :-------: | :--------: | :------: | :-----: | :-----:
+| Binary      | 512x512    | 4    | 7h 20m    | 7d 14h     | ~25      | 8.0 GB  | 5.6 GB
+| Multi-class | 512x512    | 4    | 7h 22m    | 7d 16h     | ~25      | 7.5 GB  | 5.8 GB
+
+The binary-labelled GAN achieved a minimum FID score of 5.10 after 19.55 million images, whilst the mult-class GAN achieved an FID score of 5.05 after 14.11 million training images.
+
 ## Domain Gap Visualization
 
 The domain gap between the Tharun and Thompson dataset and the external data from Nikiforov and TCGA has been visualized by passing the images through [ResNet50](https://arxiv.org/abs/1512.03385) before using Uniform Manifold Approximation and Projection ([UMAP](https://umap-learn.readthedocs.io/en/latest/)), an unsupervised dimensionality reduction technique, to reduce the 2,048-long ResNet50 vectors down to two dimensions for plotting. 
