@@ -1,0 +1,10 @@
+INFO:root:Namespace(batch_size=8, crop_size=512, labels='data/bi_dataset.json', mdl_loc='logs/031-cv2_2/vl_0.4141.pth', model_type='resnet101', out_dir='logs/031-cv2_2/', run_id='mod_test', split_file='data/cv_splits/cv2_splits/cv_split_2_2.json', src_dir='all_imgs/TharunThompson/', workers=8)
+INFO:root:Using 1 GPU(s)...
+INFO:root:[------ Beginning Model Evaluation -------]
+INFO:root:Model weights loaded successfully in parallel.
+INFO:root:Patient-level accuracy: 87.10% (27/31)
+INFO:root:PTC Accuracy: 81.82% (9/11)
+INFO:root:NIFTP Accuracy: 0.00% (0/1)
+INFO:root:FA Accuracy: 100.00% (11/11)
+INFO:root:FVPTC Accuracy: 50.00% (1/2)
+INFO:root:FTC Accuracy: 100.00% (6/6)
