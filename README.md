@@ -1,7 +1,7 @@
 # Thy-GAN 
 ## Can GAN-Generated Images Help Bridge the Domain Gap between Thyroid Histopathology Image Datasets?
 
-![Real vs Gen. Images](./images/real_vs_gan_smol.PNG)
+![Real vs Gen. Images](./images/real_vs_gan_smol.png)
 
 Abstract: *TBC*
 
