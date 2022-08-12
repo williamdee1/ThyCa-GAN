@@ -3,7 +3,7 @@
 
 ![Real vs Gen. Images](./images/real_vs_gan_smol.png)
 
-<img src="https://github.com/williamdee1/Thy-GAN/blob/main/images/real_vs_gan_smol.png" width=50% height=50%>
+<img src="https://github.com/williamdee1/Thy-GAN/blob/main/images/real_vs_gan_smol.png" width=50% height=50% class="center">
 
 Abstract: *TBC*
 
