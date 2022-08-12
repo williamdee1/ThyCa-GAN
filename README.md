@@ -101,8 +101,8 @@ This repository contains the modules needed to replicate the deep learning class
 
 Model training was performed with the following arguments:
   - `--lrd_epc = 10` decrease learning rate if there are 10 epochs without a reduction in validation loss. 
-  - `--lrd_fac = 0.5' decrease learning rate by a factor of 0.5.
-  - `--es_pat = 50' early stopping if the validation loss doesn’t decrease for 50 epochs.
+  - `--lrd_fac = 0.5` decrease learning rate by a factor of 0.5.
+  - `--es_pat = 50` early stopping if the validation loss doesn’t decrease for 50 epochs.
   
 Each model was ran with the Adam optimizer, with a weight decay of 1e-6, and the criterion set to cross-entropy loss. Maximum training epochs were set to 500.
 
@@ -128,7 +128,7 @@ python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json 
 Evaluate a trained DLC model on test data – either 20% of the Tharun Thompson dataset in the case of 5-fold cross-validation, or the Nikiforov-TCGA external data.
 
 ```.bash
-# :
+# Evaluate a model trained on the first cross validation split on the test data from that split:
 python dlc_eval.py --src_dir=all_imgs/TharunThompson/ --labels=data/bi_dataset.json \
   --out_dir=logs/eval_results/ --split_file=data/cv_splits/cv_splits/cv0_split.json \
   --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=mod_test
