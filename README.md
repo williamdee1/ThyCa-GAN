@@ -17,8 +17,28 @@ Abstract: *TBC*
 | [StyleGAN2-ADA Pytorch](https://github.com/NVlabs/stylegan2-ada-pytorch) | StyleGAN2-ADA Github Repository
 | &ensp;&ensp;&boxvr;&nbsp; [styleGAN2-ada.pdf](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/ada-paper.pdf) | StyleGAN2-ADA Research Paper
 
-## Requirements
+The dataset entitled “Tharun and Thompson” (T&T) was sourced from the reference paper by Böhland, M. et al. (2021) and was requested by emailing secretariat.patho@uksh.de. 
 
+## Requirements
+* 1&ndash;4 GPUs with at least 12 GB of memory.
+* 64-bit Python 3.7 and PyTorch 1.8.1. See [https://pytorch.org/](https://pytorch.org/) for PyTorch install instructions.
+* CUDA toolkit 11.0 or later. 
+* Python libraries: see [reqs.txt](.reqs.txt) for necessary libraries.
+
+The requirements can be installed within the Queen Mary HPC by running the following script commands:
+
+```.bash
+# Load necessary core modules
+module load python
+module load cudnn/8.1.1-cuda11.2
+module load gcc/10.2.0
+
+# Pip install modules
+pip3 install --upgrade pip
+pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip3 install -r reqs.txt
+
+```
 
 ## Getting Started
 
