@@ -126,10 +126,6 @@ Model training was performed with the following arguments:
   
 Each model was ran with the Adam optimizer, with a weight decay of 1e-6, and the criterion set to cross-entropy loss. Maximum training epochs were set to 500.
 
-### Example training and validation accuracy and loss curves:
-
-![Train Val Curves - MC100](./images/mc100_training_plots.png)
-
 ```.bash
 # Train DLC based on the first cross-validation split using no synthetic GAN images:
 python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json --out_dir=logs/ \
@@ -146,6 +142,10 @@ python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_datase
   --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id=cv0 \
   --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_mc100.json
 ```
+
+Example training and validation accuracy and loss curves:
+
+![Train Val Curves - MC100](./images/mc100_training_plots.png)
 
 ### Evaluation
 
