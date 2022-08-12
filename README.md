@@ -65,7 +65,7 @@ Shell script files used to run the GAN training on the Queen Mary HPC are includ
 Once the GAN has been trained and the checkpoint with the lowest FID score has been saved, the [generate.py](https://github.com/NVlabs/stylegan2-ada/blob/main/generate.py) from the StyleGAN2 repository can be used to generate fake images. The seeds ensure that the same images can be reproduced from the network if required.
 
 ```.bash
-# Generate 200 fake images for specified class label 
+# Generate 200 fake images for a specified class label 
 # In this example, the class selected was indexed as 0 during training
 python generate.py --outdir=outdir --seeds=0-200 --network=models/network.pkl --class=0
 ```
@@ -99,13 +99,41 @@ This repository contains the modules needed to replicate the deep learning class
 
 ### Training
 
+Model training was performed with the following arguments:
+  - `--lrd_epc = 10` decrease learning rate if there are 10 epochs without a reduction in validation loss. 
+  - `--lrd_fac = 0.5' decrease learning rate by a factor of 0.5.
+  - `--es_pat = 50' early stopping if the validation loss doesn’t decrease for 50 epochs.
+  
+Each model was ran with the Adam optimizer, with a weight decay of 1e-6, and the criterion set to cross-entropy loss. Maximum training epochs were set to 500.
 
 ```.bash
-# Train DLC based on the first cross-validation split using no GAN images
-python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 \
-  --split_file=data/cv_splits/cv0_split.json --run_id='cv0' --batch_size=64 --lr=1e-3 --gan_params=None
+# Train DLC based on the first cross-validation split using no synthetic GAN images:
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ \
+  --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id='cv0' \
+  --batch_size=64 --lr=1e-3 --gan_params=None
 
-# Augment the training data by increasing the majority class by 100% and then equalizing the no. minority classes ("MC100")
-python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 \
-  --split_file=data/cv_splits/cv0_split.json --run_id='cv0' --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_mc100.json
+# Augment the training data by increasing the prevalence of both binary classes (PTC and Non-PTC-like) by 100%:
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ \
+  --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id='cv0' \
+  --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_bi100.json
+
+# Augment the training data by increasing the majority class by 100% and then equalizing the number of minority classes:
+python dlc_main.py --src_dir=data/TharunThompson/ --labels=data/bi_dataset.json --out_dir=logs/ \
+  --lrd_epc=10 --lrd_fac=0.5 --es_pat=50 --split_file=data/cv_splits/cv0_split.json --run_id='cv0' \
+  --batch_size=64 --lr=1e-3 --gan_params=data/gan_params/cv_mc100.json
 ```
+
+### Evaluation
+
+Evaluate a trained DLC model on test data – either 20% of the Tharun Thompson dataset in the case of 5-fold cross-validation, or the Nikiforov-TCGA external data.
+
+```.bash
+# :
+python dlc_eval.py --src_dir=all_imgs/TharunThompson/ --labels=data/bi_dataset.json \
+  --out_dir=logs/eval_results/ --split_file=data/cv_splits/cv_splits/cv0_split.json \
+  --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=mod_test
+```
+
+## Acknowledgements
+
+I'd like to thank Eirini Marouli and Ryan Reavette for their help and support throughout this project.
