@@ -130,7 +130,7 @@ Evaluate a trained DLC model on test data – either 20% of the Tharun Thompson 
 ```.bash
 # Evaluate a model trained on the first cross validation split on the test data from that split:
 python dlc_eval.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_dataset.json \
-  --out_dir=logs/eval_results/ --split_file=data/cv_splits/cv_splits/cv0_split.json \
+  --out_dir=logs/eval_results/ --split_file=data/cv_splits/cv0_split.json \
   --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=mod_test
 ```
 
