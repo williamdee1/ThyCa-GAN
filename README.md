@@ -70,13 +70,13 @@ python generate.py --outdir=outdir --seeds=0-200 --network=models/network.pkl --
 
 ## Domain Gap Visualization
 
-The domain gap between the Tharun and Thompson dataset and the external data from Nikiforov and TCGA has been visualized by passing the images through [ResNet50] (https://arxiv.org/abs/1512.03385) before using Uniform Manifold Approximation and Projection ([UMAP](https://umap-learn.readthedocs.io/en/latest/)), an unsupervised dimensionality reduction technique, to reduce the 2,048-long ResNet50 vectors down to two dimensions for plotting. 
+The domain gap between the Tharun and Thompson dataset and the external data from Nikiforov and TCGA has been visualized by passing the images through [ResNet50](https://arxiv.org/abs/1512.03385) before using Uniform Manifold Approximation and Projection ([UMAP](https://umap-learn.readthedocs.io/en/latest/)), an unsupervised dimensionality reduction technique, to reduce the 2,048-long ResNet50 vectors down to two dimensions for plotting. 
 
 1,500 synthetic GAN-generated images (750 PTC-like and 750 Non-PTC-like) were then generated using the [generate.py](https://github.com/NVlabs/stylegan2-ada/blob/main/generate.py) function to visualize how their inclusion changed the domain gap between datasets.
 
 ![Domain Gap Visualization](./images/bridging_the_domain.PNG)
 
-The notebook used to process the images and visualize the domain gap is included at [DG_Visualization.ipynb](./notebooks/DG_Visualization.ipynb.py).
+The notebook used to process the images and visualize the domain gap is included at [DG_Visualization.ipynb](./notebooks/DG_Visualization.ipynb).
 
 ## Deep Learning Classifier
 
