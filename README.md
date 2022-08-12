@@ -1,5 +1,5 @@
 # Thy-GAN 
-## Can GAN-Generated Images Help Bridge the Domain Gap between Thyroid Histopathology Image Datasets?
+## Can Generative Adversarial Networks Help Bridge the Domain Gap Between Thyroid Histopathology Datasets?
 
 <p align="center">
 <img src="https://github.com/williamdee1/Thy-GAN/blob/main/images/real_vs_gan_smol.png" width=75% height=75% class="center">
