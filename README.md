@@ -1,7 +1,7 @@
 # Thy-GAN 
 ## Can GAN-Generated Images Help Bridge the Domain Gap between Thyroid Histopathology Image Datasets?
 
-![Domain Gap Image](./images/real_vs_gan.PNG)
+![Real vs Gen. Images](./images/real_vs_gan_smol.PNG)
 
 Abstract: *TBC*
 
@@ -67,6 +67,10 @@ Once the GAN has been trained and the checkpoint with the lowest FID score has b
 # In this example, the class selected was indexed as 0 during training
 python generate.py --outdir=outdir --seeds=0-200 --network=models/network.pkl --class=0
 ```
+
+### Domain Gap Visualization
+
+
 
 ## Deep Learning Classifier
 
