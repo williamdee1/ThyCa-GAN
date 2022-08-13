@@ -5,7 +5,7 @@
 <img src="https://github.com/williamdee1/Thy-GAN/blob/main/images/real_vs_gan_smol.png" width=75% height=75% class="center">
 </p>
   
-Abstract: *TBC*
+Abstract: *Deep learning techniques are increasingly being used to classify medical imaging data with high accuracy. Despite this, due to often limited training data, these models can lack sufficient generalizability to predict unseen test data, produced in a different domain, with comparable performance. This report focuses on thyroid histopathology image classification and investigates whether a Generative Adversarial Network (GAN), trained with just 156 patient samples, can produce high quality synthetic images to sufficiently augment training data and improve overall model generalizability. Utilizing a StyleGAN2-ADA approach, the optimal GAN produced images with an FID score of 5.05, matching state-of-the-art GAN results with comparable dataset sizes. Including these GAN-generated images within the training data for a deep learning classifier increased model generalizability substantially when tested on external data, improving the accuracy and F1 score by 44% and 52.5% respectively.*
 
 ## Primary Reference Material and Data Sources
 
