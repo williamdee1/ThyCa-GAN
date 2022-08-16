@@ -1,4 +1,4 @@
-# geneate.py is an adapated version of the generate.py module within the StyleGAN2-ADA repository:
+# generate.py is an adapated version of the generate.py module within the StyleGAN2-ADA repository:
 # https://github.com/NVlabs/stylegan2-ada-pytorch
 # It has been adpated for use within Thy-GAN, but relies on the dnnlib and legacy packages from the original repo.
 
