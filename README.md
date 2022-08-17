@@ -23,7 +23,7 @@ The dataset entitled “Tharun and Thompson” (T&T) was sourced from the refere
 * 1&ndash;4 GPUs with at least 12 GB of memory.
 * 64-bit Python 3.7 and PyTorch 1.8.1. See [https://pytorch.org/](https://pytorch.org/) for PyTorch install instructions.
 * CUDA toolkit 11.0 or later. 
-* Python libraries: see [reqs.txt](.reqs.txt) for necessary libraries.
+* Python libraries: see [reqs.txt](reqs.txt) for necessary libraries.
 
 The requirements can be installed within the Queen Mary HPC by running the following script commands:
 
