@@ -5,7 +5,7 @@
 <img src="https://github.com/williamdee1/Thy-GAN/blob/main/images/real_vs_gan.PNG" width=75% height=75% class="center">
 </p>
   
-Abstract: *Deep learning techniques are increasingly being used to classify medical imaging data with high accuracy. Despite this, due to often limited training data, these models can lack sufficient generalizability to predict unseen test data, produced in a different domain, with comparable performance. This report focuses on thyroid histopathology image classification and investigates whether a Generative Adversarial Network (GAN), trained with just 156 patient samples, can produce high quality synthetic images to sufficiently augment training data and improve overall model generalizability. Utilizing a StyleGAN2-ADA approach, the optimal GAN produced images with an FID score of 5.05, matching state-of-the-art GAN results with comparable dataset sizes. Including these GAN-generated images within the training data for a deep learning classifier increased model generalizability substantially when tested on external data, improving the accuracy and F1 score by 44% and 52.5% respectively.*
+**Abstract:** *Deep learning techniques are increasingly being used to classify medical imaging data with high accuracy. Despite this, due to often limited training data, these models can lack sufficient generalizability to predict unseen test data, produced in a different domain, with comparable performance. This report focuses on thyroid histopathology image classification and investigates whether a Generative Adversarial Network (GAN), trained with just 156 patient samples, can produce high quality synthetic images to sufficiently augment training data and improve overall model generalizability. Utilizing a StyleGAN2-ADA approach, the optimal GAN produced images with an FID score of 5.05, matching state-of-the-art GAN results with comparable dataset sizes. Including these GAN-generated images within the training data for a deep learning classifier increased model generalizability significantly when tested on external data, improving the accuracy and F1 score by 44% and 52.5% respectively.*
 
 ## Primary Reference Material and Data Sources
 
@@ -23,7 +23,7 @@ The dataset entitled “Tharun and Thompson” (T&T) was sourced from the refere
 * 1&ndash;4 GPUs with at least 12 GB of memory.
 * 64-bit Python 3.7 and PyTorch 1.8.1. See [https://pytorch.org/](https://pytorch.org/) for PyTorch install instructions.
 * CUDA toolkit 11.0 or later. 
-* Python libraries: see [reqs.txt](.reqs.txt) for necessary libraries.
+* Python libraries: see [reqs.txt](reqs.txt) for necessary libraries.
 
 The requirements can be installed within the Queen Mary HPC by running the following script commands:
 
