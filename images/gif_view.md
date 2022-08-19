@@ -14,7 +14,6 @@ Batches of 16 images produced by the DC-GAN throughout training where there is e
 
 <p float="left">
   <img src="gifs/mode_collapse.gif" width="300" height="300" />
-  | *Space* |
   <img src="gifs/lim_d.gif" width="300" height="300" />
   <img src="gifs/gen_c.gif" width="300" height="300" />
 </p>
