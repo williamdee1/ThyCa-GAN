@@ -17,3 +17,8 @@ Batches of 16 images produced by the DC-GAN throughout training where there is e
   <img src="gifs/lim_d.gif" width="300" height="300" />
   <img src="gifs/gen_c.gif" width="300" height="300" />
 </p>
+
+### Details of Failure Types:
+- Mode collapse: where the Generator learns to collapse many or the whole latent distribution, z, to a narrow subsection or one value of the real data distribution, x. This results in the GAN-generated images all looking alike.
+- Limited Discriminator feedback: the Discriminator learns too quickly, often overfitting on the underlying data, and provides very little feedback to the Generator for gradient weight updates. G fails to approximate any of the underlying distribution which then causes mode collapse, generating objects of random shape.
+- Generator lacks capacity: The Discriminator provides adequate feedback early in training, but the Generator model is not sufficiently complex to construct the mapping from z to x. In this scenario the GAN never manages to produce high fidelity images. 
