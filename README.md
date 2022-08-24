@@ -78,7 +78,7 @@ python train.py --outdir=outdir --data=dataset_tool_output.zip --gpus=4 --cfg=pa
   --cond=1 --mirror=1 --kimg=25000
 ```
 
-Shell script files used to run the GAN training on the Queen Mary HPC are included in the [shell_scr](.shell_scr/) directory.
+Shell script files used to run the GAN training on the Queen Mary HPC are included in the [shell_scr](shell_scr/) directory.
 
 ### Image Generation
 
