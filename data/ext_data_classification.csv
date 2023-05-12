@@ -1,70 +1,70 @@
 ﻿case_id,diag_short,diagnosis,gender,dataset,classification,binary_class
-TCGA-BJ-A0Z2,FAC,"Follicular adenocarcinoma, NOS",Male,tcga,non-PTC-like,0
-TCGA-DJ-A4UQ,NSC,Nonencapsulated sclerosing carcinoma,Male,tcga,non-PTC-like,0
+TCGA-DJ-A4UQ,NSC,Nonencapsulated sclerosing carcinoma,Male,tcga,PTC-like,1
 TCGA-BJ-A192,OA,Oxyphilic adenocarcinoma,Female,tcga,non-PTC-like,0
-TCGA-L6-A4ET,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A3OA,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A3SY,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-DJ-A3VK,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-EM-A4FU,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-EM-A2CO,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-FY-A4B0,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-FY-A3I5,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A2OW,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A3AJ,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-EL-A3CP,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A4G1,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A4FH,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-DO-A1JZ,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A2P2,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-EM-A2OV,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-DJ-A3VG,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-EM-A4FQ,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-BJ-A4O9,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-DJ-A1QM,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-FY-A3NP,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-J8-A3O0,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-EM-A22Q,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-H2-A3RH,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-DE-A2OL,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-TCGA-EM-A3OB,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-BJ-A0Z2,FAC,"Follicular adenocarcinoma, NOS",Male,tcga,non-PTC-like,0
 TCGA-MK-A84Z,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
-TCGA-DJ-A13W,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-L6-A4ET,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-J8-A3O0,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-H2-A3RH,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-FY-A4B0,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-FY-A3NP,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-FY-A3I5,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A4G1,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A4FU,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-EM-A4FQ,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A4FH,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-EM-A3SY,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-EM-A3OB,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A3OA,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A3AJ,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-EM-A2P2,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-EM-A2OW,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A2OV,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
 TCGA-EM-A2CR,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A2CO,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-EM-A22Q,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-EL-A3CP,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-DO-A1JZ,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-DJ-A3VK,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-DJ-A3VG,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
+TCGA-DJ-A1QM,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,1
 TCGA-DJ-A13X,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
-NIK-A102,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A111,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A121,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A123,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A124,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A126,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A127,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A128,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A129,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A130,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A131,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A134,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A136,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A137,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+TCGA-DJ-A13W,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-DE-A2OL,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
+TCGA-BJ-A4O9,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,1
 NIK-A138,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A026,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A027,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A029,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A035,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A036,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A037,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A041,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A043,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A046,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A047,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A049,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A052,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A056,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A058,B,Benign,Unknown,nik,non-PTC-like,0
-NIK-A059,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A060,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A062,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
-NIK-A073,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A137,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A136,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A134,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A131,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A130,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A129,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A128,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A127,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A126,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A124,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A123,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A111,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A102,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
 NIK-A079,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A073,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A062,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A060,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A059,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A049,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A036,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A035,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A027,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A026,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
 NIK-A008,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,1
+NIK-A121,B,Benign,Unknown,nik,non-PTC-like,0
 NIK-A080,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A058,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A056,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A052,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A047,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A046,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A043,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A041,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A037,B,Benign,Unknown,nik,non-PTC-like,0
+NIK-A029,B,Benign,Unknown,nik,non-PTC-like,0

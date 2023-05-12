@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="graphviz" />
+            <item index="1" class="java.lang.String" itemvalue="scikit-allel" />
+            <item index="2" class="java.lang.String" itemvalue="dash-bootstrap-components" />
+            <item index="3" class="java.lang.String" itemvalue="zarr" />
+            <item index="4" class="java.lang.String" itemvalue="dash-table" />
+            <item index="5" class="java.lang.String" itemvalue="dash-html-components" />
+            <item index="6" class="java.lang.String" itemvalue="dash-core-components" />
+            <item index="7" class="java.lang.String" itemvalue="dash" />
+            <item index="8" class="java.lang.String" itemvalue="pandas-gbq" />
+            <item index="9" class="java.lang.String" itemvalue="pandas-profiling" />
+            <item index="10" class="java.lang.String" itemvalue="numpy" />
+            <item index="11" class="java.lang.String" itemvalue="pandas-datareader" />
+            <item index="12" class="java.lang.String" itemvalue="statistics" />
+            <item index="13" class="java.lang.String" itemvalue="cuda-python" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

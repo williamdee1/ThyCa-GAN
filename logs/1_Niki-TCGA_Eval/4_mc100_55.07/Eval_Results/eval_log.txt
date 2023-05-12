@@ -1,0 +1,12 @@
+INFO:root:Namespace(batch_size=8, crop_size=512, labels='data/labels/ext_dataset.json', mdl_loc='logs/061-mcGAN_fd4/vl_0.2371.pth', model_type='resnet101', out_dir='logs/test_ext/', run_id='mcGAN_NSC', split_file='data/labels/ext_test_fnames.json', src_dir='external/og_niki_tcga/', workers=8)
+INFO:root:Using 1 GPU(s)...
+INFO:root:[------ Beginning Model Evaluation -------]
+INFO:root:Model weights loaded successfully in parallel.
+INFO:root:Patient-level f1 score: 49.99%
+INFO:root:Patient-level accuracy: 55.07% (38/69)
+INFO:root:NIFTP Accuracy: 44.00% (11/25)
+INFO:root:B Accuracy: 72.73% (8/11)
+INFO:root:FA Accuracy: 0.00% (0/1)
+INFO:root:FVPTC Accuracy: 63.33% (19/30)
+INFO:root:OA Accuracy: 0.00% (0/1)
+INFO:root:NSC Accuracy: 0.00% (0/1)

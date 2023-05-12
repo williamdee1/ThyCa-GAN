@@ -1,0 +1,12 @@
+INFO:root:Namespace(batch_size=8, crop_size=512, labels='data/labels/ext_dataset.json', mdl_loc='logs/055-fd_4_100_biGAN/vl_0.2253.pth', model_type='resnet101', out_dir='logs/test_ext/', run_id='biGAN_NSC', split_file='data/labels/ext_test_fnames.json', src_dir='external/og_niki_tcga/', workers=8)
+INFO:root:Using 1 GPU(s)...
+INFO:root:[------ Beginning Model Evaluation -------]
+INFO:root:Model weights loaded successfully in parallel.
+INFO:root:Patient-level f1 score: 45.69%
+INFO:root:Patient-level accuracy: 50.72% (35/69)
+INFO:root:NIFTP Accuracy: 40.00% (10/25)
+INFO:root:B Accuracy: 54.55% (6/11)
+INFO:root:FA Accuracy: 100.00% (1/1)
+INFO:root:FVPTC Accuracy: 60.00% (18/30)
+INFO:root:OA Accuracy: 0.00% (0/1)
+INFO:root:NSC Accuracy: 0.00% (0/1)

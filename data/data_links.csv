@@ -1,0 +1,67 @@
+﻿case_id,diag_short,diagnosis,gender,source,classification,Link
+TCGA-L6-A4ET,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/259a79c3-c9e2-496b-b0bc-96795c09bbfc
+TCGA-EM-A3OA,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/078e4e72-6469-4c29-a595-51a35f9db1ca
+TCGA-EM-A3SY,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/0854e966-7446-438e-98a9-ab0a32a163e7
+TCGA-DJ-A3VK,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/ad4b024c-0c53-4b25-b6f1-9f32dfdbcae2
+TCGA-EM-A4FU,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/bb1c7958-dea1-4d4c-80cb-9ba5e911ea55
+TCGA-EM-A2CO,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/45771c4b-5340-462c-91db-b5ddf900f96a
+TCGA-FY-A4B0,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/5ab3f29d-0e48-458b-809c-af72f8ef055c
+TCGA-FY-A3I5,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/7b6c2930-f607-4513-887d-7e02e995f703
+TCGA-EM-A2OW,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/1c1694f9-e8e3-46bb-aaf7-2ca101585e1c
+TCGA-EM-A3AJ,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/1e1b6b55-487b-4b09-8dc0-3d92a9ab2806
+TCGA-EL-A3CP,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/57af0f44-2c46-4c3f-9357-a7e8fbbee85c
+TCGA-EM-A4G1,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/7a19ef9a-e9c3-4670-a69f-1827be91d2ef
+TCGA-EM-A4FH,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/6c8dc423-04f3-4df0-a0df-25caab12dc41
+TCGA-DO-A1JZ,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/f488e373-8598-4888-8ddd-b10c5c6e1355
+TCGA-EM-A2P2,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/a6087ed5-1e38-4369-975f-07bb32b8137c
+TCGA-EM-A2OV,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/8cc5afde-d27e-4cf9-a492-3799daed72f1
+TCGA-DJ-A3VG,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/922baded-bf70-40f3-b4ae-55f8bd9c49ba
+TCGA-EM-A4FQ,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/59f903bc-eefc-4800-87b7-4f19ac3df77a
+TCGA-BJ-A4O9,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/d3b5b4af-22bf-408d-91ba-c4ba6a234524
+TCGA-DJ-A1QM,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/bb171a10-54a6-4619-98de-14d7fdd84ce3
+TCGA-FY-A3NP,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/a826a3b8-cc82-466d-8f48-163fa1a6d497
+TCGA-J8-A3O0,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/e90f19b8-e656-4bd1-b845-f6e898a56513
+TCGA-EM-A22Q,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/2149876e-ea13-4732-829d-de65f923ad38
+TCGA-H2-A3RH,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/6449427f-f510-45e4-9829-5cbfb3740f77
+TCGA-DE-A2OL,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/3707e8d1-5f99-4b3a-a1ee-4c91f752f45b
+TCGA-EM-A3OB,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/f70457de-e787-445c-86d1-c69e4c7e8beb
+TCGA-MK-A84Z,FVPTC,"Papillary carcinoma, follicular variant",Male,tcga,PTC-like,https://portal.gdc.cancer.gov/files/8064fcd3-ede9-4e38-99fd-444432e6c8c2
+TCGA-DJ-A13W,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/e5efae78-c235-4269-aa33-4b1e8dc0ac53
+TCGA-EM-A2CR,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/cdeae11b-78e8-4760-91d6-c467ee5fa4a2
+TCGA-DJ-A13X,FVPTC,"Papillary carcinoma, follicular variant",Female,tcga,PTC-like,https://portal.gdc.cancer.gov/files/7f1c5f9d-1fd0-41c8-b4be-29f68378524d
+NIK-A102,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A102.svs/view.apml?listview=1&
+NIK-A111,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A111.svs/view.apml?listview=1&
+NIK-A123,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A123.svs/view.apml?listview=1&
+NIK-A124,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A124.svs/view.apml?listview=1&
+NIK-A126,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A126.svs/view.apml?listview=1&
+NIK-A127,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A127.svs/view.apml?listview=1&
+NIK-A128,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A128.svs/view.apml?listview=1&
+NIK-A129,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A129.svs/view.apml?listview=1&
+NIK-A130,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A130.svs/view.apml?listview=1&
+NIK-A131,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A131.svs/view.apml?listview=1&
+NIK-A134,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A134.svs/view.apml?listview=1&
+NIK-A136,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A136.svs/view.apml?listview=1&
+NIK-A137,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A137.svs/view.apml?listview=1&
+NIK-A138,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A138.svs/view.apml?listview=1&
+NIK-A026,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A026.svs/view.apml?listview=1&
+NIK-A027,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A027.svs/view.apml?listview=1&
+NIK-A035,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A035.svs/view.apml?listview=1&
+NIK-A036,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A036.svs/view.apml?listview=1&
+NIK-A049,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A049.svs/view.apml?listview=1&
+NIK-A059,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A059.svs/view.apml?listview=1&
+NIK-A060,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A060.svs/view.apml?listview=1&
+NIK-A062,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A062.svs/view.apml?listview=1&
+NIK-A073,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A073.svs/view.apml?listview=1&
+NIK-A079,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A079.svs/view.apml?listview=1&
+NIK-A008,NIFTP,Noninvasive follicular thyroid neoplasm with papillary-like nuclear features,Unknown,nik,PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A008.svs/view.apml?listview=1&
+NIK-A029,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A029.svs/view.apml?listview=1&
+NIK-A037,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A037.svs/view.apml?listview=1&
+NIK-A041,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A041.svs/view.apml?listview=1&
+NIK-A043,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A043.svs/view.apml?listview=1&
+NIK-A046,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A046.svs/view.apml?listview=1&
+NIK-A047,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A047.svs/view.apml?listview=1&
+NIK-A052,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A052.svs/view.apml?listview=1&
+NIK-A056,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A056.svs/view.apml?listview=1&
+NIK-A058,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A058.svs/view.apml?listview=1&
+NIK-A080,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A080.svs/view.apml?listview=1&
+NIK-A121,B,Benign,Unknown,nik,non-PTC-like,https://image.upmc.edu/NikiForov%20EFV%20Study/BoxA/A121.svs/view.apml?listview=1&
