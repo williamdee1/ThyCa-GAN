@@ -75,7 +75,6 @@ def test_preds(model, dataloader, device, run_dir):
                  'pred_class': pred_class, 'pred_prob': pred_prob}
 
 
-
     # Save preds as csv file:
     df = pd.DataFrame(pred_dict).sort_values(by='patient')
     df.to_csv("%s/test_preds.csv" % run_dir, index=None)
