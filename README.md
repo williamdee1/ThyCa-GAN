@@ -25,21 +25,6 @@ The dataset entitled “Tharun and Thompson” (T&T) was sourced from the refere
 * CUDA toolkit 11.0 or later. 
 * Python libraries: see [reqs.txt](reqs.txt) for necessary libraries.
 
-The requirements can be installed within the Queen Mary HPC by running the following script commands:
-
-```.bash
-# Load necessary core modules
-module load python
-module load cudnn/8.1.1-cuda11.2
-module load gcc/10.2.0
-
-# Pip install modules
-pip3 install --upgrade pip
-pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
-pip3 install -r reqs.txt
-
-```
-
 ## Getting Started
 
 The original images in the Tharun Thompson dataset are 1916x1053 pixels. StyleGAN2-ADA's dataset_tool.py automatically crops 512x512 images from the center of the source dataset. 
