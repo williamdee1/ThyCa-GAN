@@ -147,7 +147,3 @@ python dlc_eval.py --src_dir=data/TharunThompson/ --labels=data/labels/bi_datase
 python dlc_eval.py --src_dir=data/niki_tcga/ --labels=data/ext_dataset.json  --out_dir=logs/eval_results/ \
   --split_file=data/labels/ext_test_fnames.json --mdl_loc=logs/train_results/model.pth --batch_size=8 --run_id=test_ext
 ```
-
-## Acknowledgements
-
-I'd like to thank Eirini Marouli and Ryan Reavette for their help and support throughout this project.
