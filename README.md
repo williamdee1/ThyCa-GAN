@@ -1,5 +1,5 @@
-# Thy-GAN 
-## Can Generative Adversarial Networks Help Bridge the Domain Gap Between Thyroid Histopathology Datasets?
+# ThyCa-GAN - Histopathological Domain Adaptation with Generative Adversarial Networks 
+## Bridging the Domain Gap Between Thyroid Cancer Histopathology Datasets
 
 <p align="center">
 <img src="https://github.com/williamdee1/Thy-GAN/blob/main/images/real_vs_gan.PNG" width=75% height=75% class="center">
