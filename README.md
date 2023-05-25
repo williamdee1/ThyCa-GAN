@@ -7,6 +7,8 @@
   
 **Abstract:** *Deep learning techniques are increasingly being used to classify medical imaging data with high accuracy. Despite this, due to often limited training data, these models can lack sufficient generalizability to predict unseen test data, produced in a different domain, with comparable performance. This study focuses on thyroid histopathology image classification and investigates whether a Generative Adversarial Network (GAN), trained with just 156 patient samples, can produce high quality synthetic images to sufficiently augment training data and improve overall model generalizability. Utilizing a StyleGAN2-ADA approach, the generative network produced images with an FID score of 5.05, matching state-of-the-art GAN results in non-medical domains with comparable dataset sizes. Augmenting the training data with these GAN-generated images increased model generalizability significantly when tested on external data, improving overall accuracy and F1 scores by 36\% and 42\% respectively. Most importantly, this performance improvement was observed on minority class images, tumour subtypes which are known to suffer from high levels of inter-observer variability when classified by trained pathologists.*
 
+biorxiv pre-print: https://www.biorxiv.org/content/10.1101/2023.05.22.541691v1.full.pdf
+
 ## Primary Reference Material and Data Sources
 
 | Path | Description
